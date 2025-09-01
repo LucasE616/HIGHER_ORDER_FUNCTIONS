@@ -34,5 +34,3 @@ As Higher-Order Functions (HOFs) em JavaScript são funções que recebem outras
 - A maioria das HOFs não modifica o array original, exceto o sort();
 - Muito usadas em arrays, eventos, promises e callbacks;
 - Tornam o código mais funcional, limpo e reutilizável;
-
-# Pedir o CHAT GPT para explicar oque os códigos dos exercícios fazem
