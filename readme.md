@@ -3,34 +3,48 @@ As Higher-Order Functions (HOFs) em JavaScript são funções que recebem outras
 
 ## Exemplos de HOFs em JavaScript:
 
-### SOME()
-[🏀, 🏓, 🍎, 🍕, 🥝, 🐳, 🍎].some(🍕) -> true
+### SOME( )
+- A função some() verifica se <strong>pelo menos um elemento atende a uma condição</strong> passada como parâmetro. <br>
+[🏀, 🏓, 🧪, 🤖, ⚙️, 🐳, 🚗].some(🤖) ➔ true <br>
+[🏀, 🏓, 🧪, 🤖, ⚙️, 🐳, 🚗].some(🏈) ➔ false
 
-### EVERY()
-[🏀, 🏓, 🍎, 🍕, 🥝, 🐳, 🍎].every(🍎) -> false;
+### EVERY( )
+- A função every() é usada quando queremos garantir que <strong>todos os itens</strong> de um array atendam a uma condição passada como parâmetro. <br>
+[🏀, 🏓, 🚗, ⚽, ⚙️, 🐳, 🚗].every(🚗) ➔ false; <br>
+[🕹️, 🕹️, 🕹️].every(🕹️) ➔ true;
 
-### FIND()
-[🏀, 🏓, 🍎, 🍕, 🥝, 🐳, 🥝, 🍎].find(🥝) -> 🥝;
+### FIND( )
+- A função find() retorna <strong>o primeiro elemento</strong> que atenda a condição passada como parâmetro. <br>
+[🏀, 💻, 💡, 🔧, 💣, 🐳, 💣, 💡].find(💣) ➔ 💣;
 
-### FILTER()
-[🏀, 🍕, 🍎, 🍕, 🍕, 🐳, 🍎].filter(🍕) -> [🍕, 🍕, 🍕];
+### FILTER( )
+- A função filter() retorna um array <strong>apenas com os elementos que passam em uma condição</strong> passada como parâmetro. <br>
+[🏀, ⚠️, 🛰️, ⚠️, ⚠️, 🐳, 🛰️].filter(⚠️) ➔ [⚠️, ⚠️, ⚠️];
 
-### FOREACH()
-[2, 4, 6, 8, 10].forEach(* 2) -> [4, 8, 12, 16, 20]
+### FOREACH( )
+- A função forEach() executa uma ação <strong>PARA CADA</strong> elemento do array. <br>
+[2, 4, 6, 8, 10].forEach(* 2) ➔ [4, 8, 12, 16, 20]
 
-### SORT()
-[7, 5, 8, 3, 2, 1, 4, 6].sort() -> [1, 2, 3, 4, 5, 6, 7, 8]
+### SORT( )
+- A função sort() serve para <strong>ordenar elementos</strong> de um array. <br>
+[7, 5, 8, 3, 2, 1, 4, 6].sort() ➔ [1, 2, 3, 4, 5, 6, 7, 8] <br>
+['C', 'A', 'B', 'F', 'E', 'D'].sort() ➔ ['A', 'B', 'C', 'D', 'E', 'F']
 
-### MAP()
-[🐮, 🥔, 🌽, 🪵, 🍎].map(🏭) -> [🍔, 🍟, 🍿, 🪑, 🥧]
+### MAP( )
+- A função map() <strong>cria um novo array</strong> com o resultado da aplicação de uma função em cada elemento do array original. <br>
+[🐮, 🥔, 🌽, 🪵, 🍎].map(🏭) ➔ [🍔, 🍟, 🍿, 🪑, 🥧]
 
-### REDUCE()
-[🍔, 🍟, 🍿, 🥧, 🍩].reduce(🍽) -> 💩
+### REDUCE( )
+- A função reduce() <strong>reduz todos os elementos a um único valor</strong>, de acordo com a condição passada como parâmetro. <br>
+[🧰, 🛢️, 🔧, 🔩, ⚙️].reduce(🛠️) ➔ 🏎️ <br>
+[🍔, 🍟, 🍿, 🥧, 🍩].reduce(🍽) ➔ 💩
 
 
-## OBS:
+## Algumas características:
 - As HOFs esperam uma função de callback como parâmetro, geralmente uma arrow function;
 - A função de callback pode receber até três parâmetros: o valor atual, o índice e o array original;
-- A maioria das HOFs não modifica o array original, exceto o sort();
+- A maioria das HOFs não modifica o array original;
 - Muito usadas em arrays, eventos, promises e callbacks;
 - Tornam o código mais funcional, limpo e reutilizável;
+- Podem retornar funções como resultado;
+- Permitem aplicar programação funcional em JavaScript.

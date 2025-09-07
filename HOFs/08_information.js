@@ -1,4 +1,4 @@
-// 08 - Para cada personagem, imprima uma frase da seguinte forma:
+// Para cada personagem, imprima uma frase da seguinte forma:
    // Parte 1: {NOME} é da espécie {ID ESPÉCIE}.
    // Parte 2: {NOME} é da espécie {NOME ESPÉCIE}.
    

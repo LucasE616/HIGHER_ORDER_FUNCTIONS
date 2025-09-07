@@ -1,4 +1,4 @@
-// 03 - Mostre o primeiro personagem de acordo com o id da espécie
+// Mostre o primeiro personagem de acordo com o id da espécie
 
 const data = require('../database');
 

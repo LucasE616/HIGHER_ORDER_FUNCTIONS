@@ -1,4 +1,4 @@
-// 07 - Verificar se o personagem possui poderes ou não. Adicionar a propriedade isFighter com True(quando tiver poderes) ou False(quando não tiver poderes). Faça isso com todos os personagens.
+// Verificar se o personagem possui poderes ou não. Adicionar a propriedade isFighter com True(quando tiver poderes) ou False(quando não tiver poderes). Faça isso com todos os personagens.
 
 const data = require('../database');
 

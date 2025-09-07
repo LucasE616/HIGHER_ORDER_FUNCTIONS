@@ -1,4 +1,4 @@
-// 04 - Ordenar os personagens através de um parâmetro
+// Ordenar os personagens através de um parâmetro
 
 const data = require('../database')
 

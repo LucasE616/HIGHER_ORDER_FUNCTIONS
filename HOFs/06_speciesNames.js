@@ -1,4 +1,4 @@
-// 06 - Imprima todos os nomes das espécies
+// Imprima todos os nomes das espécies
 
 const data = require('../database');
 

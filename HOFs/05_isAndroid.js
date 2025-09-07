@@ -1,4 +1,4 @@
-// 06 - Imprimir se existe algum personagem de uma determinada espécie, True ou False. Caso o retorno for True, traga os nomes de todos os personagens desta espécie.
+// Imprimir se existe algum personagem de uma determinada espécie, True ou False. Caso o retorno for True, traga os nomes de todos os personagens desta espécie.
 
 const data = require('../database');
 

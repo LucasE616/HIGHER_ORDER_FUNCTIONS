@@ -1,4 +1,4 @@
-// 01 - Criando uma função que mostre a quantidade de personagens
+// Criando uma função que mostre a quantidade de personagens
 
 const data = require('../database');
 

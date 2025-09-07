@@ -1,4 +1,4 @@
-// 02 - Contar a quantidade de personagens através do sexo
+// Contar a quantidade de personagens através do sexo
 
 const data = require('../database');
 
